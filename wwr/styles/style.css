@@ -1,3 +1,13 @@
+/* Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Damion&family=Kaushan+Script&family=Poppins:wght@300&family=Roboto&display=swap");
+
+body {
+  font-family: Poppins, Helvetica, sans-serif;
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -7,11 +17,12 @@ nav a {
   text-align: center;
   color: #fffff5;
   text-decoration: none;
+  padding: 35px;
 }
 
 nav a:hover {
-  background-color: #ffa21f;
-  color: #005a7a;
+  background-color: #005a7a;
+  color: #ffa21f;
 }
 
 #hero-msg h1,
@@ -27,9 +38,13 @@ main section {
   text-align: center;
 }
 
+main section img {
+  box-sizing: border-box;
+}
+
 #background {
   height: 725px;
-  background-color: #005a7a;
+  background-color: #ffa21f;
 }
 
 body {
@@ -45,6 +60,10 @@ header {
   background-color: #ffa21f;
   color: #023047;
   text-decoration: none;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover,
@@ -54,37 +73,50 @@ header {
 
 .msg {
   background-color: #005a7a;
+  line-height: 1.5em;
+  padding: 35px;
 }
 
 .msg h2 {
   color: #fffff5;
+  font-family: "Bubblegum Sans", sans-serif;
 }
 
 .msg p {
   color: #fffff5;
+  font-size: 0.8em;
+  padding-bottom: 15px;
 }
 
 footer {
-  background-color: #ffa21f;
+  background-color: #023047;
+  padding: 25px 50px;
 }
 
 footer h3 {
-  color: #023047;
+  color: #fffff5;
 }
 
 footer a {
-  color: #023047;
+  color: #fffff5;
   text-decoration: none;
 }
 
 footer a:hover {
-  background-color: #005a7a;
+  /* background-color: #005a7a; */
   color: #ffa21f;
   text-decoration: underline;
 }
 
+footer .social img {
+  padding-top: 15px;
+}
+
 .home-title {
   color: #023047;
+  font-family: "Bubblegum Sans", sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 h4 {
@@ -93,12 +125,32 @@ h4 {
 
 .logo {
   width: 80px;
+  padding-top: 5px;
+}
+
+#logo_link {
+  padding-top: 5px;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img {
   width: 100%;
+}
+
+h2 {
+  margin: 0;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+
+.card-img {
+  border: 10px solid #005a7a;
 }
