@@ -395,7 +395,7 @@ Contact Us Page CSS below
 form {
   /* Center the form on the page */
   margin: 0 auto;
-  width: 400px;
+  width: 450px;
   /* Form outline */
   padding: 1em;
   border: 1px solid #ccc;
@@ -415,7 +415,7 @@ form li + li {
 label {
   /* Uniform size & alignment */
   display: inline-block;
-  width: 90px;
+  width: 100px;
   text-align: right;
 }
 
