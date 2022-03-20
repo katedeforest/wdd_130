@@ -472,3 +472,11 @@ button {
 .moveDown {
   margin-top: 3em;
 }
+
+.logo-link {
+  padding-left: 30px;
+  font-family: "Dancing Script";
+  font-size: 40px;
+  text-decoration: none;
+  color: #ffffff;
+}
