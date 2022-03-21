@@ -6,8 +6,8 @@ body {
   margin: 0;
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 18px;
-  background-color: #bc2e3d;
-  color: #ffffff;
+  background-color: #961203;
+  color: white;
 }
 
 #content {
@@ -37,19 +37,18 @@ header {
   font-family: "Dancing Script";
   font-size: 40px;
   text-decoration: none;
-  color: #ffffff;
+  color: white;
 }
 
 nav {
   display: flex;
   justify-content: end;
-  padding-left: 20px;
   padding: 20px;
   gap: 20px;
 }
 
 nav a {
-  color: #ffffff;
+  color: white;
   text-decoration: none;
   text-align: right;
   padding: 58px 20px;
@@ -57,11 +56,12 @@ nav a {
 
 nav a:hover {
   background-color: #091c34;
-  /* color: #f5bb33; */
+  /* color: #f6bc34; */
 }
 
 .dropdown {
   display: flex;
+  position: relative;
 }
 
 .dopbtn {
@@ -79,6 +79,7 @@ nav a:hover {
   position: absolute;
   background-color: #0c2441;
   margin-top: 140px;
+  width: 100%;
   /* z-index: 1; */
 }
 
@@ -110,10 +111,10 @@ h3 {
 
 .what-is {
   /* background-color: #bc2e3d; */
-  background-color: #f5bb33;
+  background-color: #f6bc34;
   border: solid 5px #ca9925;
   border-radius: 25px;
-  width: 80%;
+  width: 60%;
   margin: 40px auto;
   padding: 20px;
   color: #0c2441;
@@ -150,7 +151,7 @@ h3 {
 }
 
 h2 a {
-  color: #fff;
+  color: white;
   text-decoration: none;
 }
 
@@ -180,13 +181,16 @@ h2 a:hover {
 }
 
 .byui {
-  background-color: #f5bb33;
+  background-color: #f6bc34;
+  border: solid 5px #ca9925;
+  /* border-radius: 25px; */
   display: grid;
   grid-template-columns: 200px auto;
   grid-template-rows: 55px auto;
   gap: 0 20px;
   width: 80%;
   margin: 0 auto;
+  margin-top: 150px;
   padding: 20px;
   color: #0c2441;
   align-items: center;
@@ -194,6 +198,10 @@ h2 a:hover {
 
 .byui-title {
   align-self: start;
+}
+
+.byui-p {
+  font-size: larger;
 }
 
 .byui-p a {
@@ -219,11 +227,11 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: #fff;
+  color: white;
 }
 
 footer a:hover {
-  color: #f5bb33;
+  color: #f6bc34;
   text-decoration: underline;
 }
 
