@@ -6,8 +6,10 @@ body {
   margin: 0;
   font-family: "Lato", Helvetica, sans-serif;
   font-size: 18px;
-  background-color: #961203;
-  color: white;
+  /* background-color: #961203;
+  color: white; */
+  background-color: #ca9925;
+  color: #091c34;
 }
 
 #content {
@@ -70,7 +72,7 @@ nav a:hover {
 
 /* Add a red background color to navbar links on hover */
 .dropdown:hover .dropbtn {
-  background-color: #bc2e3d;
+  background-color: #96031a;
 }
 
 /* Dropdown content (hidden by default) */
@@ -111,13 +113,13 @@ h3 {
 
 .what-is {
   /* background-color: #bc2e3d; */
-  background-color: #f6bc34;
-  border: solid 5px #ca9925;
+  background-color: #8f0500;
+  /* border: solid 5px #ca9925; */
   border-radius: 25px;
   width: 60%;
-  margin: 40px auto;
+  margin: 60px auto;
   padding: 20px;
-  color: #0c2441;
+  color: white;
   display: grid;
   grid-template-rows: 75px auto;
   gap: 5px;
@@ -133,21 +135,31 @@ h3 {
   font-size: larger;
 }
 
+.backtwo {
+  background-color: #8f0500;
+  padding-bottom: 40px;
+  border-top: solid 5px #ca9925;
+}
+
 .vs-box {
-  max-width: 800px;
+  /* background-color: #96031a; */
+  max-width: 1600px;
   margin: 40px auto;
+  padding: 60px 20px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
   grid-template-rows: 250px 250px;
   text-align: center;
   /* gap: 50px; */
+  color: white;
 }
 
 .standard {
-  border-right: solid 1px #ca9925;
-  border-bottom: solid 1px #ca9925;
-  padding-right: 20px;
+  border-right: solid 2px #ca9925;
+  border-bottom: solid 2px #ca9925;
+  padding: 0px 40px;
   overflow: scroll;
+  grid-column-start: 2;
 }
 
 h2 a {
@@ -160,29 +172,30 @@ h2 a:hover {
 }
 
 .smooth {
-  border-left: solid 1px #ca9925;
-  border-bottom: solid 1px #ca9925;
+  border-left: solid 2px #ca9925;
+  border-bottom: solid 2px #ca9925;
   padding-left: 20px;
   overflow: scroll;
 }
 
 .latin {
-  border-top: solid 1px #ca9925;
-  border-right: solid 1px #ca9925;
+  border-top: solid 2px #ca9925;
+  border-right: solid 2px #ca9925;
   padding-right: 20px;
   overflow: scroll;
+  grid-column-start: 2;
 }
 
 .rhythm {
-  border-top: solid 1px #ca9925;
-  border-left: solid 1px #ca9925;
+  border-top: solid 2px #ca9925;
+  border-left: solid 2px #ca9925;
   padding-left: 20px;
   overflow: scroll;
 }
 
 .byui {
-  background-color: #f6bc34;
-  border: solid 5px #ca9925;
+  background-color: #0c2441;
+  /* border: solid 5px #ca9925; */
   /* border-radius: 25px; */
   display: grid;
   grid-template-columns: 200px auto;
@@ -190,9 +203,8 @@ h2 a:hover {
   gap: 0 20px;
   width: 80%;
   margin: 0 auto;
-  margin-top: 150px;
   padding: 20px;
-  color: #0c2441;
+  color: #faefe1;
   align-items: center;
 }
 
@@ -207,7 +219,7 @@ h2 a:hover {
 .byui-p a {
   /* text-decoration: none; */
   /* color: #bc2e3d; */
-  color: #0c2441;
+  color: #faefe1;
 }
 
 .byuilogo {
@@ -219,15 +231,16 @@ footer {
   background-color: #0c2441;
   min-height: 150px;
   padding: 25px 50px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #faefe1;
 }
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: #faefe1;
 }
 
 footer a:hover {
@@ -266,7 +279,7 @@ footer a:hover {
   .mnu-symbit {
     width: 35px;
     height: 5px;
-    background-color: white;
+    background-color: #faefe1;
     margin: 6px 0;
   }
   .sm-mnu:hover a {

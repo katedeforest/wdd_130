@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 18px;
+  background-color: #ca9925;
+  color: white;
+}
+
+#content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 30px;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 100px 200px auto;
+  grid-template-rows: 140px;
+  align-items: center;
+  font-family: "Playfair Display", Lato, Times, serif;
+  background-color: #0c2441;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.logo-link {
+  padding-left: 30px;
+  font-family: "Dancing Script";
+  font-size: 40px;
+  text-decoration: none;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+  padding: 20px;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-align: right;
+  padding: 58px 20px;
+}
+
+nav a:hover {
+  background-color: #091c34;
+  /* color: #f6bc34; */
+}
+
+.dropdown {
+  display: flex;
+  position: relative;
+}
+
+.dopbtn {
+  align-content: center;
+}
+
+/* Add a red background color to navbar links on hover */
+.dropdown:hover .dropbtn {
+  background-color: #8f0500;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #0c2441;
+  margin-top: 140px;
+  width: 100%;
+  /* z-index: 1; */
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.sm-mnu {
+  display: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", Lato, Helvetica, sans-serif;
+}
+
+#i-hero-box {
+  width: 100%;
+  background-color: #8f0500;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  box-shadow: 0px 5px 10px #8f5600;
+}
+
+#i-hero-msg {
+  font-family: "Dancing Script";
+  margin: 0;
+}
+
+.st-descr {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: 100px 80px 120px 100px 120px 80px 100px;
+  /* padding: 80px 180px; */
+}
+
+#st-descr-pic {
+  grid-column: 2/7;
+  grid-row: 2/6;
+  /* box-shadow: 5px 5px 10px #6f7364; */
+  width: 100%;
+}
+
+.st-define {
+  background-color: #8f0500;
+  grid-column: 6/10;
+  grid-row: 3/6;
+  width: 100%;
+  padding: 20px;
+  font-size: larger;
+}
+
+.st-style-box {
+  background-color: #8f0500;
+  width: 100%;
+  padding: 40px 0px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 100px 400px;
+  align-items: center;
+  justify-items: center;
+}
+
+.st-style-box .heading {
+  grid-column: 1/6;
+  grid-row-start: 1;
+  text-align: center;
+}
+
+.st-style-box a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.stquickstep-card {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.stwaltz-card {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.stviennese-card {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+.stfoxtrot-card {
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.sttango-card {
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+
+footer {
+  background-color: #0c2441;
+  min-height: 150px;
+  padding: 25px 50px;
+  /* margin-top: 40px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  color: #f6bc34;
+  text-decoration: underline;
+}
